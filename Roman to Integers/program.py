@@ -1,6 +1,7 @@
 class Solution:
     def romanToInt(self, s: str) -> int:
 
+        #defining a dictionary to fetch values
         roman_to_int = {
         'I' : 1,
         'V' : 5,
@@ -10,6 +11,7 @@ class Solution:
         'D' : 500,
         'M' : 1000 }
 
+        #initializing a for loop and replacing the input to values from the dictionary
         for_sum = 0
         s.replace('IV', 'IIII').replace('IX','VIIII'). replace('XL','XXXX').replace('XC','LXXXX').replace('CD','CCCC').replace('CM','DCCCC')
 
