@@ -31,5 +31,4 @@ class Solution:
             print('stack empty')
         except:
             print('stack has args')
-
         
